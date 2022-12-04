@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@unocss/nuxt": "^0.47.5",
+    "nuxt": "3.0.0",
+    "unplugin-element-plus": "^0.4.1",
+    "unplugin-vue-components": "^0.22.11"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "webpack"
+      ]
+    }
+  },
+  "dependencies": {
+    "element-plus": "^2.2.26",
+    "unplugin-icons": "^0.14.14"
+  }
+}
